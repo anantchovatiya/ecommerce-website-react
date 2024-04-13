@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+}
+.rating img{
+    filter: invert();
+    margin-top: -40px;
+    width: 100px;
+}
+.prodis{
+    display: flex;
+    margin: 0 170px;
+    margin-bottom: 10px;
+}
+.pdleft{
+    display: flex;
+    gap: 17px;
+}
+.imglist{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+.imglist img{
+    height: 163px;
+
+}
+.pdimg img{
+    width: 586px;
+    height: 700px;
+}
+.pdright{
+    margin: 0px 70px;
+    display: flex;
+    flex-direction: column;
+}
+.pdright h1{
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.pd-right-prices{
+    display: flex;
+    margin: 40px 0px;
+    gap: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.pd-right-oldprice{
+    color: #818181;
+    text-decoration: line-through;
+}
+.pd-right-newprice{
+    color: #ff4141;
+}
+.pd-size h1{
+    margin-top: 55px;
+    color: #656565;
+    font-size: 20px;
+    font-weight: 600;
+}
+.pd-sizes{
+    display: flex;
+    margin: 30px 0px;
+    gap: 20px;
+
+}
+.pd-sizes div{
+    padding: 18px 24px;
+    background-color: #fbfbfb;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.pdright button{
+    padding: 20px 40px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #ff4141;
+    margin-bottom: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
